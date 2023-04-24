@@ -7,6 +7,13 @@ applied_templates:
     project_springboot_version: 2.7.2
     project_version: 0.0.1-SNAPSHOT
   template_data_path: java-springboot-restapi-stack/default-template
+- inputs:
+    application_class_full_path: src/main/java/com/sistemalima/demo/KafkademoApplication.java
+    application_path_default: src.main.java.com.sistemalima.demo.KafkademoApplication
+    directory_path: src.main.java.com.sistemalima.demo
+    directory_path_code: com.sistemalima.demo
+    directory_test_path: src.test.java.com.sistemalima.demo
+  template_data_path: java-springboot-restapi-stack/java-spring-kafka-plugin
 global_computed_inputs: {}
 global_inputs: {}
 stack: java-springboot-restapi-stack
